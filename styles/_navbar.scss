@@ -16,12 +16,18 @@
   position: relative;
 
   &__logo {
+    letter-spacing: 10px;
     color: $dark;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
     margin-left: 24px;
     @extend %align-center;
+  }
+
+  &__logo:hover {
+    color: rgba($dark, 0.75);
+    transition: all 0.3s ease;
   }
 
   &__bars {

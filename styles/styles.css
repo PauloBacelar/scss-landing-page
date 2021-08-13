@@ -22,11 +22,18 @@
 }
 
 .navbar__logo {
+  letter-spacing: 10px;
   color: #222121;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   margin-left: 24px;
+}
+
+.navbar__logo:hover {
+  color: rgba(34, 33, 33, 0.75);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .navbar__bars {
