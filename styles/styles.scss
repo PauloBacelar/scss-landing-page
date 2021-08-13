@@ -1,5 +1,6 @@
 @import "navbar";
 
+// All
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,7 +12,7 @@ body {
   background-color: $light;
 }
 
-// Hero section
+// Home
 .hero {
   &__container {
     display: grid;
@@ -117,6 +118,52 @@ body {
     &--img {
       height: 100%;
       width: 100%;
+    }
+  }
+}
+
+// Sign up
+.form {
+  height: calc(100vh - 80px);
+  display: flex;
+  @extend %align-center;
+  justify-content: center;
+
+  &__container {
+    height: 20em;
+    width: 50%;
+    max-width: 400px;
+    min-width: 250px;
+    border-radius: 10px;
+  }
+
+  &__header {
+    margin: 1em 0;
+    text-align: center;
+  }
+
+  &__inputs {
+    height: 100%;
+
+    &--input {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      label {
+        margin-right: 10px;
+      }
+
+      input {
+        height: 20px;
+        padding: 10px 5px;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black;
+        position: relative;
+      }
     }
   }
 }

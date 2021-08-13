@@ -1,4 +1,4 @@
-.navbar__logo, .navbar__menu, .navbar__menu--links {
+.navbar__logo, .navbar__menu, .navbar__menu--links, .form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -230,5 +230,59 @@ body {
 .hero__container--img {
   height: 100%;
   width: 100%;
+}
+
+.form {
+  height: calc(100vh - 80px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__container {
+  height: 20em;
+  width: 50%;
+  max-width: 400px;
+  min-width: 250px;
+  border-radius: 10px;
+}
+
+.form__header {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.form__inputs {
+  height: 100%;
+}
+
+.form__inputs--input {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form__inputs--input label {
+  margin-right: 10px;
+}
+
+.form__inputs--input input {
+  height: 20px;
+  padding: 10px 5px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  position: relative;
 }
 /*# sourceMappingURL=styles.css.map */
