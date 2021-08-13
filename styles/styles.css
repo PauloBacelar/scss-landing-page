@@ -31,7 +31,7 @@
 }
 
 .navbar__logo:hover {
-  color: rgba(34, 33, 33, 0.75);
+  color: #00c666;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
