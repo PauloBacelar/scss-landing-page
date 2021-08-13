@@ -23,11 +23,11 @@
     font-size: 2rem;
     margin-left: 24px;
     @extend %align-center;
+    transition: all 0.3s ease;
   }
 
   &__logo:hover {
     color: $lime;
-    transition: all 0.3s ease;
   }
 
   &__bars {
@@ -59,10 +59,10 @@
       justify-content: center;
       text-decoration: none;
       padding: 0 1rem;
+      transition: all 0.3s ease;
 
       &:hover {
         color: $lime;
-        transition: all 0.3s ease;
       }
     }
 
