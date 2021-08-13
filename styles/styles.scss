@@ -1,3 +1,4 @@
+// Imports
 @import "navbar";
 
 // All
@@ -163,6 +164,35 @@ body {
         border-bottom: 1px solid black;
         position: relative;
       }
+    }
+  }
+
+  button {
+    margin-top: 20px;
+    background-color: $lime;
+    width: 100%;
+    padding: 20px 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 100px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    box-shadow: 3px 4px 3px 0px rgba(0, 0, 0, 0.3);
+    transition: all 0.25s;
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+
+    &:active {
+      transform: translateY(3px);
+      box-shadow: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: $light;
     }
   }
 }
