@@ -1,4 +1,4 @@
-.navbar__logo, .navbar__menu, .navbar__menu--links, .form {
+.navbar__logo, .navbar__menu, .navbar__menu--links, .form, .pricing {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -319,5 +319,19 @@ body {
 .form button a {
   text-decoration: none;
   color: #f7f7f7;
+}
+
+.pricing {
+  height: calc(100vh - 80px);
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.pricing__free, .pricing__premium, .pricing__pro {
+  width: 250px;
+  height: 500px;
+  background-color: blue;
 }
 /*# sourceMappingURL=styles.css.map */

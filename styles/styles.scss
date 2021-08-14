@@ -196,3 +196,19 @@ body {
     }
   }
 }
+
+// Pricing
+.pricing {
+  height: calc(100vh - 80px);
+  width: 100%;
+  @extend %align-center;
+  justify-content: space-evenly;
+
+  &__free,
+  &__premium,
+  &__pro {
+    width: 250px;
+    height: 500px;
+    background-color: blue;
+  }
+}
