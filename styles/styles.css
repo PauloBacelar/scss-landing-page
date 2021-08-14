@@ -1,4 +1,4 @@
-.navbar__logo, .navbar__menu, .navbar__menu--links, .form, .pricing {
+.navbar__logo, .navbar__menu, .navbar__menu--links, .form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -324,14 +324,52 @@ body {
 .pricing {
   height: calc(100vh - 80px);
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pricing__container {
+  width: 100%;
+  max-width: 1550px;
+  height: calc(100vh - 80px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  color: #222121;
 }
 
-.pricing__free, .pricing__premium, .pricing__pro {
-  width: 250px;
+.pricing__container--plan {
   height: 500px;
-  background-color: blue;
+  width: 240px;
+  background-color: #00c666;
+  border-radius: 20px;
+}
+
+.pricing__container--plan--title {
+  text-align: center;
+  padding: 30px 0 20px 0;
+}
+
+.pricing__container--plan--benefits {
+  height: 100%;
+}
+
+.pricing__container--plan--benefits--benefit {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 17px;
+}
+
+.pricing__container--plan--benefits .unchecked {
+  text-decoration: line-through;
+  color: rgba(34, 33, 33, 0.5);
 }
 /*# sourceMappingURL=styles.css.map */
