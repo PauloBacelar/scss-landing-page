@@ -9,6 +9,13 @@
   font-family: "Kumbh Sans", serif;
 }
 
+html,
+body {
+  @include tablet {
+    overflow-x: hidden;
+  }
+}
+
 body {
   background-color: $light;
   min-width: 270px;

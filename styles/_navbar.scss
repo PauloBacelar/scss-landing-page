@@ -41,6 +41,10 @@
       right: 20px;
       font-size: 2rem;
     }
+
+    i {
+      cursor: pointer;
+    }
   }
 
   &__menu {
@@ -48,10 +52,6 @@
     list-style: none;
     text-align: center;
     margin-right: 24px;
-
-    @include tablet {
-      display: none;
-    }
 
     &--links {
       color: $dark;
@@ -79,6 +79,25 @@
         background-color: $orangeRed;
         transition: all 0.3s ease;
       }
+    }
+
+    .nav-active {
+      transform: translateX(0%);
+    }
+
+    @include tablet {
+      // display: none;
+      margin: 0;
+      position: absolute;
+      right: 0px;
+      height: calc(100vh - 80px);
+      background-color: $lime;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 50%;
+      transform: translateX(100%);
     }
   }
 }
