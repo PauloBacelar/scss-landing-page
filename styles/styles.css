@@ -491,4 +491,24 @@ body {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+
+.about {
+  padding: 10px 50px;
+}
+
+.about__title {
+  margin-bottom: 15px;
+}
+
+.about__subtitle {
+  margin-bottom: 7px;
+}
+
+.about__answer {
+  line-height: 25px;
+}
+
+.about .question {
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=styles.css.map */

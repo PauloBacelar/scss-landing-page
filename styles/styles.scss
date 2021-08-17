@@ -294,3 +294,24 @@ body {
     }
   }
 }
+
+// About page
+.about {
+  padding: 10px 50px;
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__subtitle {
+    margin-bottom: 7px;
+  }
+
+  &__answer {
+    line-height: 25px;
+  }
+
+  .question {
+    margin-bottom: 20px;
+  }
+}
