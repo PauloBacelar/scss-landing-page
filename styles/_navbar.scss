@@ -63,6 +63,10 @@
 
       &:hover {
         color: $lime;
+
+        @include tablet {
+          color: rgba($dark, 0.75);
+        }
       }
 
       @include tablet {

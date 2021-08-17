@@ -77,6 +77,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  .navbar__menu--links:hover {
+    color: rgba(34, 33, 33, 0.75);
+  }
+}
+
+@media screen and (max-width: 768px) {
   .navbar__menu--links {
     font-size: 1.2rem;
     font-weight: bold;
